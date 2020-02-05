@@ -4,12 +4,11 @@
 #' @param ~x is a name of a variable (Age, Income, Expenditure)
 #' @return the plot
 #' @export
-#' @example
-#' relationship(~Age)
+#' @import plotly
+#'
 #'
 #
 #
-
 relationship <-function(x) {
-  plot_ly(accountbalance, x= (x), y = ~Accbl)
+   plot_ly(accountbalance, x=(x), y = ~Accbl)
 }
