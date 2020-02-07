@@ -4,6 +4,9 @@
 #' @param x is the dataset on which the function calculates the residual and the predicted value
 #' @export
 #' @import stats graphics
+#' @examples
+#' plotres(linear.r)
+#' plotres(linearD)
 #'
 #'
 #'
