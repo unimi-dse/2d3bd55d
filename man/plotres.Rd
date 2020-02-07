@@ -2,17 +2,13 @@
 % Please edit documentation in R/plotres.R
 \name{plotres}
 \alias{plotres}
-\title{This function plots the residual against the predicted model}
+\title{plotres}
 \usage{
-plotres(x, y)
+plotres(x)
+}
+\arguments{
+\item{x}{is the dataset on which the function calculates the residual and the predicted value}
 }
 \description{
-@param x is/are the observed variable/s that we predict using predict
- @param y are the residuals
- @import graphics
- @import stats
- @export
- @examples
- plotres(predict(linear.r), residuals(linear.r))
- plotres(predict(linearD), residuals(linearD))
+This function plots the residuals against the predicted model
 }
