@@ -17,4 +17,5 @@ Imports:
     plotly,
     RColorBrewer,
     graphics,
-    usethis
+    usethis,
+    stats
