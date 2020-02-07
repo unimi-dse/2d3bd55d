@@ -2,8 +2,8 @@ Package: accountbalance
 Title: accountbalance
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Paola",
+           family = "Serra",
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))

@@ -7,11 +7,15 @@
 relationship(x)
 }
 \arguments{
-\item{~x}{is a name of a variable (Age, Income, Expenditure)}
+\item{x}{is a name of a variable (Age, Income, Expenditure)}
 }
 \value{
-the plot
+a plot
 }
 \description{
 This function shows the relatioship between some variables and accountbalance
+}
+\examples{
+relationship(~Age)
+relationship(~Income)
 }
