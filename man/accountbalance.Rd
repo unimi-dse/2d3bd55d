@@ -1,21 +1,21 @@
 \name{accountbalance}
 \alias{accountbalance}
 \docType{data}
-\title{Account balance}
+\title{accountbalance}
 \description{
-%%  This dataset shows the account balance of 100 people with their own Age, Income, Family size, Expenditure,ownership of other cards andonline purchases  ~~
+This dataset shows the account balance of 100 people with their own Age, Income, Family size, Expenditure,ownership of other cards and online purchases
 }
-\usage{"accountbalance"}
+\usage{}
 \format{
   A data frame with 100 observations on the following 7 variables.
   \describe{
-    \item{\code{Accbl}}{Account balance }
+    \item{\code{Accbl}}{total amount of money in the account in the account balance}
     \item{\code{Age}}{a numeric vector}
-    \item{\code{Fams}}{Describe the Family size}
+    \item{\code{Fams}}{family size}
     \item{\code{Income}}{a numeric vector}
     \item{\code{Expenditure}}{a numeric vector}
-    \item{\code{Ocards}}{Describe the ownership of other cards: Yes or No}
-    \item{\code{Online}}{Describe if the subect purchase online: Yes or No}
+    \item{\code{Ocards}}{ownership of other cards}
+    \item{\code{Online}}{online purchases}
   }
 }
 \details{

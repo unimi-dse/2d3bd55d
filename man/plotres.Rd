@@ -12,3 +12,11 @@ plotres(x)
 \description{
 This function plots the residuals against the predicted model
 }
+\examples{
+
+
+
+
+
+
+}
