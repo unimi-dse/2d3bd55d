@@ -5,8 +5,8 @@
 #' @export
 #' @import stats graphics
 #' @examples
-#' plotres(linear.r)
-#' plotres(linearD)
+#'
+#'
 #'
 #'
 #'

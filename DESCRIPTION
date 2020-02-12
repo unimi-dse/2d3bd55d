@@ -18,4 +18,5 @@ Imports:
     RColorBrewer,
     graphics,
     usethis,
-    stats
+    stats,
+    utils
