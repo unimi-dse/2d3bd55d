@@ -5,7 +5,7 @@
 \description{
 This dataset shows the account balance of 100 people with their own Age, Income, Family size, Expenditure,ownership of other cards and online purchases
 }
-\usage{}
+\usage{accountbalance}
 \format{
   A data frame with 100 observations on the following 7 variables.
   \describe{
@@ -18,15 +18,7 @@ This dataset shows the account balance of 100 people with their own Age, Income,
     \item{\code{Online}}{online purchases}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
+
 \examples{
 data(accountbalance)
 ## maybe str(accountbalance) ; plot(accountbalance) ...

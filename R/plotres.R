@@ -5,12 +5,8 @@
 #' @export
 #' @import stats graphics
 #' @examples
-#'
-#'
-#'
-#'
-#'
-#'
+#' plotres(linear.r())
+#' @return a plot
 plotres <- function(x) {
   plot(predict(x), residuals(x))
 

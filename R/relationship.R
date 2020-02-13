@@ -3,7 +3,7 @@
 #'
 #' @param x is a name of a variable (Age, Income, Expenditure)
 #' @export
-#' @import plotly
+#' @rawNamespace import (plotly, except=c(filter,layout))
 #' @examples
 #' relationship(~Age)
 #' relationship(~Income)
@@ -12,5 +12,5 @@
 #
 #
 relationship <-function(x) {
-   plot_ly(accountbalance, x=(x), y = ~Accbl)
+   plot_ly(accountbalance::accountbalance, x=(x), y = ~Accbl)
 }

@@ -5,18 +5,20 @@ Authors@R:
     person(given = "Paola",
            family = "Serra",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "paolas.serra@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: It will analize the relationship between a set of variables and the account balance of 100 people
-License: What license it uses
+Description: It analizes the relationship between a set of variables and the account balance of 100 people.
+License: FALSE
 Encoding: UTF-8
+Depends: R (>= 2.10)
 LazyData: true
 RoxygenNote: 7.0.2
 Imports: 
     ggplot2,
     plotly,
     RColorBrewer,
-    graphics,
     usethis,
     stats,
-    utils
+    utils,
+    
+    
