@@ -9,14 +9,12 @@ plotres(x)
 \arguments{
 \item{x}{is the dataset on which the function calculates the residual and the predicted value}
 }
+\value{
+a plot
+}
 \description{
 This function plots the residuals against the predicted model
 }
 \examples{
-
-
-
-
-
-
+plotres(linear.r())
 }

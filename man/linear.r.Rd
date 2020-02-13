@@ -7,8 +7,15 @@
 linear.r()
 }
 \value{
-linear.r()
+The coefficients of the regression
 }
 \description{
 this function allows to make a linear regression between Age and the explanatory variables(Age,Fams,Income,Expenditure)
+}
+\examples{
+linear.r()
+
+
+
+
 }

@@ -2,22 +2,20 @@
 % Please edit documentation in R/res.R
 \name{res}
 \alias{res}
-\title{res
- @description this functions allows you to see the residuals of the linear regression in ascending order
- @param x is the linear regression
- @export
- @examples
- res(linear.r())
- res(linearD())}
+\title{res}
 \usage{
 res(x)
 }
+\arguments{
+\item{x}{is the value of the function of the linear regression}
+}
+\value{
+the residuals in ascending order
+}
 \description{
-res
- @description this functions allows you to see the residuals of the linear regression in ascending order
- @param x is the linear regression
- @export
- @examples
- res(linear.r())
- res(linearD())
+this functions allows you to see the residuals of the linear regression in ascending order
+}
+\examples{
+res(linear.r())
+res(linearD())
 }
