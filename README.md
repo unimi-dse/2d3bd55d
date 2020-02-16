@@ -51,11 +51,11 @@ linear.r()
 linearD()
 
 #to see the total output
-regression_output(linear.r)
-regression_output(linearD)
+regression_output(linear.r())
+regression_output(linearD())
 # to see information
 ?linear.r()
 ?linearD()
-?regression_output
+?regression_output()
 ?res()
 ```
